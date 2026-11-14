@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "rustforge",
+  "version": "${version}",
+  "name": "RustForge",
+  "description": "A Java-Rust hybrid foundation for Minecraft: Java Edition.",
+  "authors": ["AlbedianVorce"],
+  "license": "Apache-2.0",
+  "environment": "*",
+  "entrypoints": { "main": ["dev.albedianvorce.rustforge.RustForge"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
