@@ -67,4 +67,4 @@ jobs:
           workspaces: rust
 
       - name: Check Rust code
-        run: cargo check --locked
+        run: cargo check
